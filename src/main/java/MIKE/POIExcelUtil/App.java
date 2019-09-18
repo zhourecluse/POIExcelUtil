@@ -73,10 +73,10 @@ public class App
     		reportDefine.createRow();
     		for (int j = 0; j <100; j++) {
     			String location=String.valueOf(i)+String.valueOf(j);
-    			reportDefine.addCell(location);
-			}	
+    			reportDefine.addCell(location+"21ewdsewe2q1ewrwrwasdqewsadwarrewrsaf");
+			}
 		}
-    	//reportDefine.setAutoWidthAll();
+    	reportDefine.setAutoWidthAll();
     	
     	
     	String FileName="D:\\测试.xls";
